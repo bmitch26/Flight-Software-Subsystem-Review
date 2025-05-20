@@ -56,9 +56,9 @@ Tier 2: Space-Specific Software Concepts:
 Key Learning through Practical Coding:
 | Goal                                  | Focus                                    |
 | ------------------------------------- | ---------------------------------------- |
-| **Understand hardware timing**        | Timers, interrupts, real-time loops      |
-| **Code low-level drivers**            | UART, SPI, I2C mock drivers              |
-| **Control logic and fault tolerance** | FSMs, watchdogs, retries                 |
-| **Packet structure & parsing**        | Fixed-length formats, CRC, parsing       |
-| **Efficient thinking**                | LeetCode-style algorithms (esp. bitwise) |
-| **Simulation & test writing**         | Prove your logic is correct & safe       |
+| Understand hardware timing        | Timers, interrupts, real-time loops      |
+| Code low-level drivers            | UART, SPI, I2C mock drivers              |
+| Control logic and fault tolerance | FSMs, watchdogs, retries                 |
+| Packet structure & parsing        | Fixed-length formats, CRC, parsing       |
+| Efficient thinking                | LeetCode-style algorithms (esp. bitwise) |
+| Simulation & test writing         | Prove your logic is correct & safe       |
