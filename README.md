@@ -1,5 +1,5 @@
 # Flight-Software-Subsystem-Review
-Adding review of core computer architecture concepts for flight software and embedded systems
+Review of core computer architecture concepts for flight software and embedded systems.
 
 | Topic                          | Why it is important                                                          |
 | ------------------------------ | ---------------------------------------------------------------------------- |
@@ -15,7 +15,9 @@ Adding review of core computer architecture concepts for flight software and emb
 |   Bitwise Operations           | Used constantly in embedded logic and driver code (e.g., masking bits)       |
 
 
+
 Summarized High-Important Topics in Space Systems. Important to know how each component here interrelates.
+
 | Topic                 | Why it is important                           | Keywords to review         |
 | --------------------- | --------------------------------------------- | -------------------------- |
 | RTOS + Scheduling     | Determinism in critical software              | RMS, MLFQ, ISRs            |
