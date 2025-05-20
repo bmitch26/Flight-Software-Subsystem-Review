@@ -16,6 +16,12 @@ Place in terms.txt file in main:
 |   Bitwise Operations           | Used constantly in embedded logic and driver code (e.g., masking bits)       |
 
 
+Recap of the foundational components of spacecraft software & subsystems:
+- Flight Software (on MCU): Brain of the spacecraft - system logic, task scheduling, mode control
+- RTOS Kernel (optional), can use bare-metal
+- Command Handler
+- Telemetry Generator
+- Fault Detection
 
 Summarized High-Important Topics in Space Systems. Important to know how each component here interrelates.
 
