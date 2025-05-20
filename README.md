@@ -48,10 +48,10 @@ Tier 2: Space-Specific Software Concepts:
 | ---------------------------------------- | --------------------------------------------------------------- |
 | Telemetry packet building            | Manually build and parse CCSDS-like packets (fixed format, CRC) |
 | Command handler                      | Parse uplinked commands and trigger appropriate logic           |
-| **RTOS-style task simulation           | Implement cooperative or preemptive schedulers in Python or C   |
-| **Sensor polling loop**                  | Collect and log mock sensor data at fixed intervals             |
-| **Logging & fault detection**            | Implement error counters and safe mode triggers                 |
-| **Ground-to-space interface simulation** | Simulate command reception and telemetry logs                   |
+| RTOS-style task simulation           | Implement cooperative or preemptive schedulers in Python or C   |
+| Sensor polling loop                  | Collect and log mock sensor data at fixed intervals             |
+| Logging & fault detection            | Implement error counters and safe mode triggers                 |
+| Ground-to-space interface simulation | Simulate command reception and telemetry logs                   |
 
 Key Learning through Practical Coding:
 | Goal                                  | Focus                                    |
