@@ -1,5 +1,6 @@
 # Flight-Software-Subsystem-Review
 Review of core computer architecture concepts for flight software and embedded systems.
+Place in terms.txt file in main:
 
 | Topic                          | Why it is important                                                          |
 | ------------------------------ | ---------------------------------------------------------------------------- |
@@ -35,19 +36,19 @@ Learn to do the following through practical coding.
 Tier 1 - Embedded + Systems Fundamentals:
 | Skill                            | Example Task                                                     |
 | -------------------------------- | ---------------------------------------------------------------- |
-| **Bitwise operations**           | Set/clear flags, mask registers                                  |
-| **Memory management (C/C++)**    | Use stack/heap correctly, avoid memory leaks                     |
-| **UART/SPI/I2C simulation**      | Write mock drivers or communication loops                        |
-| **Timer-based scheduling**       | Simulate or implement periodic tasks without an RTOS             |
-| **Watchdog behavior**            | Write a simple loop that times out and triggers a software reset |
-| **Finite State Machines (FSMs)** | Build a mode controller (e.g., Safe, Science, Idle)              |
+| Bitwise operations           | Set/clear flags, mask registers                                  |
+| Memory management (C/C++)    | Use stack/heap correctly, avoid memory leaks                     |
+| UART/SPI/I2C simulation      | Write mock drivers or communication loops                        |
+| Timer-based scheduling       | Simulate or implement periodic tasks without an RTOS             |
+| Watchdog behavior            | Write a simple loop that times out and triggers a software reset |
+| Finite State Machines (FSMs) | Build a mode controller (e.g., Safe, Science, Idle)              |
 
 Tier 2: Space-Specific Software Concepts:
 | Skill                                    | Example Task                                                    |
 | ---------------------------------------- | --------------------------------------------------------------- |
-| **Telemetry packet building**            | Manually build and parse CCSDS-like packets (fixed format, CRC) |
-| **Command handler**                      | Parse uplinked commands and trigger appropriate logic           |
-| **RTOS-style task simulation**           | Implement cooperative or preemptive schedulers in Python or C   |
+| Telemetry packet building            | Manually build and parse CCSDS-like packets (fixed format, CRC) |
+| Command handler                      | Parse uplinked commands and trigger appropriate logic           |
+| **RTOS-style task simulation           | Implement cooperative or preemptive schedulers in Python or C   |
 | **Sensor polling loop**                  | Collect and log mock sensor data at fixed intervals             |
 | **Logging & fault detection**            | Implement error counters and safe mode triggers                 |
 | **Ground-to-space interface simulation** | Simulate command reception and telemetry logs                   |
