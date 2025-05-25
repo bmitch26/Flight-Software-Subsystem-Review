@@ -1,5 +1,12 @@
 /*
 Memory Allocation Basics!!!
+Dynamic memory is memory that is allocated after the program
+is already compiled and running.
+Use the 'new' operator to allocate memory in the heap rather
+than the stack.
+Useful when we don't known how much memory we will need. This 
+makes our programs more flexible, especially when accepting
+user input.
 */
 
 #include <iostream>
