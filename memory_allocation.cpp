@@ -10,7 +10,7 @@ user input.
 
 To compile (in terminal):
 1. g++ -g memory_allocation.cpp -o memory_allocation
-./memory_allocation
+2. /memory_allocation
 */
 
 #include <iostream>
