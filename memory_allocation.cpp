@@ -8,7 +8,7 @@ Useful when we don't known how much memory we will need. This
 makes our programs more flexible, especially when accepting
 user input.
 
-To compile (in terminal):
+To compile (terminal):
 1. g++ -g memory_allocation.cpp -o memory_allocation
 2. /memory_allocation
 */
