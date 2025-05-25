@@ -35,7 +35,7 @@ int main() {
     pNum = new int;
     *pNum = 21;
     cout << "address: " << pNum << "\n";
-    cout << "value: " << pNum << "\n";
+    cout << "value: " << *pNum << "\n";
     delete pNum;
 
     return 0;
