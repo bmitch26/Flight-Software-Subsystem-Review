@@ -1,5 +1,6 @@
 /*
-Bitfields: controlling memory at the bit level
+Bitfields: controlling memory at the bit level.
+Useful for flags, hardware registers, protocol headers (e.g. TCP/IP packet fields)
 */
 
 #include <iostream>
