@@ -9,7 +9,7 @@ makes our programs more flexible, especially when accepting
 user input.
 
 To compile (in terminal):
-g++ -g memory_allocation.cpp -o memory_allocation
+1. g++ -g memory_allocation.cpp -o memory_allocation
 ./memory_allocation
 */
 
