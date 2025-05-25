@@ -26,5 +26,12 @@ int main() {
     cout << "x << 1 = " << (x << 1) << endl;     // 1010 = 10
     cout << "x >> 1 = " << (x >> 1) << endl;     // 0010 = 2
 
+    // Common bitwise tricks: set bit, clear bit, toggle bit
+    int flags = 0;
+    flags |= (1 << 1);  // Set bit 1
+    flags |= (1 << 3);  // Set bit 3
+    flags &= ~(1 << 1); // Clear bit 1
+
+
     return 0;
 }
